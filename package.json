@@ -1,0 +1,33 @@
+{
+  "name": "restfulblogapp",
+  "version": "1.0.0",
+  "description": "Blog App using RESTful Routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MelinaRentzi/JustAnotherBlogApp.git"
+  },
+  "keywords": [
+    "blog",
+    "app",
+    "blogapp",
+    "coltsteele",
+    "bootcamp",
+    "semanticUI"
+  ],
+  "author": "Melina Rentzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelinaRentzi/JustAnotherBlogApp/issues"
+  },
+  "homepage": "https://github.com/MelinaRentzi/JustAnotherBlogApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6"
+  }
+}
