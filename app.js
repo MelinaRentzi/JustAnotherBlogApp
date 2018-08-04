@@ -97,6 +97,18 @@ app.put("/blogs/:id", function(req, res){
     });
 });
 
+// DELETE ROUTE
+app.delete("/blogs/:id", function(req, res){
+    // destroy blog and redirect
+    Blog.findByIdAndRemove(req.params.id, function(err){
+       if(err){
+           res.redirect("/blogs");
+       } else {
+           res.redirect("/blogs");
+       }
+    });
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Server has started!");
 });
